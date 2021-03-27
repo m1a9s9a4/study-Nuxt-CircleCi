@@ -15,14 +15,16 @@
     }
   },
   "lint-staged": {
-    "*.vue": [
-      "eslint --ext .vue --fix",
-      "git add"
-    ],
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
+    "linters": {
+      "*.vue": [
+        "eslint --ext .vue --fix",
+        "git add"
+      ],
+      "*.js": [
+        "eslint --fix",
+        "git add"
+      ]
+    },
     "ignore": [
       ".nuxt/**/*",
       "node_modules/**/*"

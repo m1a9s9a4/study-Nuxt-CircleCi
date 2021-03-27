@@ -34,6 +34,8 @@ export default Vue.extend({
   mounted() {
     console.log('hello')
     console.log('world')
+
+
   }
 })
 </script>
