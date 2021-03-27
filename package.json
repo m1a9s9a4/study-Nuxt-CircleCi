@@ -22,6 +22,10 @@
     "*.js": [
       "eslint --fix",
       "git add"
+    ],
+    "ignore": [
+      ".nuxt/**/*",
+      "node_modules/**/*"
     ]
   },
   "dependencies": {
