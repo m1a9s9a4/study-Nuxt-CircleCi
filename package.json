@@ -25,6 +25,7 @@
     ]
   },
   "dependencies": {
+    "babel-preset-vue-app": "^2.0.0",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3"
   },

@@ -6,12 +6,12 @@
           "@babel/preset-env",
           {
             "targets": {
-              "node": "current"
+              "browsers": ["last 2 versions"]
             }
           }
-        ],
-        ["vue-app"]
-      ]
+        ]
+      ],
+      "plugins": ["@babel/transform-runtime"]
     }
   }
 }
