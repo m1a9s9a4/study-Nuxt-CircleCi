@@ -28,15 +28,13 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from 'vue';
 
 export default Vue.extend({
   mounted() {
-    console.log('hello')
-    console.log('world')
-
-  }
-})
+    console.log('hello');
+  },
+});
 </script>
 
 <style>

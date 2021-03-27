@@ -7,7 +7,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "test": "jest --config jest.config.js"
+    "test": "jest --config jest.config.js",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
@@ -15,25 +16,20 @@
     }
   },
   "lint-staged": {
-    "linters": {
-      "*.vue": [
-        "eslint --ext .vue --fix",
-        "git add"
-      ],
-      "*.js": [
-        "eslint --fix",
-        "git add"
-      ]
-    },
-    "ignore": [
-      ".nuxt/**/*",
-      "node_modules/**/*"
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.vue": [
+      "eslint --ext .vue --fix",
+      "git add"
     ]
   },
   "dependencies": {
     "babel-preset-vue-app": "^2.0.0",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "vue": "^2.6.12"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.3",
