@@ -18,3 +18,10 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Linter
+### husky
+
+### ESLint
+
+### lint-staged
