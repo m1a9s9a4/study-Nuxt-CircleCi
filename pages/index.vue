@@ -35,7 +35,7 @@ export default Vue.extend({
     console.log('hello')
     console.log('world')
 
-
+    console.log('eh goeogipajepogaeg')
   }
 })
 </script>
