@@ -10,11 +10,6 @@
     "test": "jest --config jest.config.js",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.js": [
       "eslint --fix",
@@ -24,6 +19,11 @@
       "eslint --ext .vue --fix",
       "git add"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "dependencies": {
     "babel-preset-vue-app": "^2.0.0",
