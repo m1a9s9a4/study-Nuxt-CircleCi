@@ -26,6 +26,7 @@
     }
   },
   "dependencies": {
+    "@nuxtjs/auth-next": "^5.0.0-1616003482.75c20e6",
     "babel-preset-vue-app": "^2.0.0",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
