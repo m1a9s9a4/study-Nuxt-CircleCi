@@ -7,3 +7,4 @@ describe('Logo', () => {
     expect(wrapper.vm).toBeTruthy()
   })
 })
+
